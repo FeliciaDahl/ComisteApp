@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+@await Html.PartialAsync("Partials/_HeroPartial")
+
+<div class="text-center">
+    <nav class="nav-list">
+        <a class="nav-link" asp-page="/menu">Menu</a>
+        <a class="nav-link" asp-page="/booking">Book a table</a>
+        <a class="nav-link" asp-page="/contact">Contact</a>
+    </nav>
+</div>
