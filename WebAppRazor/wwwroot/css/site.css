@@ -16,6 +16,8 @@ html, body {
     height: 100dvh;
 }
 
+/*HEADER*/
+
 .header {
     display:flex;
     justify-content: space-between;
@@ -35,8 +37,11 @@ html, body {
 
 .socials-icon {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 20px;
+    padding-right: 1rem;
 }
+
+/*HERO*/
 
 .hero {
     position: relative;
@@ -54,6 +59,8 @@ html, body {
     left: 0;
     z-index:1;
 }
+
+/*MAIN*/
 
 .nav-list {
     display: flex; 
@@ -107,11 +114,15 @@ html, body {
 }
 
 
+/*MENU*/
+
 .nav-list-menu {
     width:25%;
     height:40vh;
 }
 
+
+/*CONTACT*/
 .contact-img {
     object-position: top;
 }
@@ -130,6 +141,16 @@ html, body {
     padding-top: 3rem;
 }
 
+    .contact-info p {
+        margin: 0;
+        font-size: 16px;
+    }
+    .contact-info a {
+        color: #fff;
+        text-decoration: none; 
+    }
+
+/* FOOTER*/
 footer {
     height: 20px;
     font-size: 14px;
