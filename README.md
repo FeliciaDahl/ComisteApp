@@ -4,6 +4,9 @@ A modern web application for a restaurant built with ASP.NET Core Razor Pages.
 
 ## Overview
 
+![comiste](https://github.com/user-attachments/assets/432f6fe3-d57c-48ec-b8ea-43514ebeb9e4)
+
+
 Comiste App is a restaurant website featuring an intuitive interface for customers to explore the menu, make reservations, and get in touch with the restaurant.
 
 ## Features
